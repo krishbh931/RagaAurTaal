@@ -4,158 +4,66 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Raga Aur Taal | Indian Classical Music & Bhajans</title>
-  <meta name="description" content="A growing archive of Indian classical music, bhajans, raag and taal guides, recordings, and a student's ABGMVM journey." />
+  <meta name="description" content="A modern archive for Indian classical music, devotional bhajans, recordings, raag and taal guides, and ABGMVM exam resources." />
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Raga Aur Taal home">
-        <img src="assets/logo.jpeg" alt="Raga Aur Taal logo" />
-        <span>Raga Aur Taal</span>
-      </a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#recordings">Recordings</a>
-        <a href="#bhajans">Bhajans</a>
-        <a href="#learn">Learn</a>
-        <a href="#journey">ABGMVM</a>
-        <a class="nav-cta" href="#contact">Follow Along</a>
-      </nav>
-    </header>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Raga Aur Taal home">
+      <img src="assets/icon.png" alt="Raga Aur Taal icon" />
+      <span>Raga Aur Taal</span>
+    </a>
+    <button class="mobile-toggle" aria-expanded="false" aria-label="Open menu">Menu</button>
+    <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a class="" href="recordings.html">Recordings</a>
+        <a class="" href="bhajans.html">Bhajans</a>
+        <a class="" href="learn.html">Learn</a>
+        <a class="" href="raag-taal.html">Raag & Taal</a>
+        <a class="" href="abgmvm.html">ABGMVM</a>
+        <a class="nav-cta" href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section hero">
+      <div class="reveal">
+        <p class="eyebrow">Classical Music • Bhajans • Devotion</p>
+        <h1>Indian music, beautifully recorded and clearly explained.</h1>
+        <p class="lede">Raga Aur Taal is a digital home for Indian classical music and devotional bhajans — featuring recordings, music guides, lyrics, meanings, and resources for students and families.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="recordings.html">Listen to Recordings</a>
+          <a class="button secondary" href="learn.html">Explore the Guides</a>
+          <a class="button ghost" href="https://forms.gle/VvjnWsrUGJwZeJvT8" target="_blank" rel="noopener">Contact Form</a>
+        </div>
+        <div class="hero-note"><span></span> RagaAurTaal.com • youtube.com/@RagaAurTaal</div>
+      </div>
+      <div class="hero-image reveal delay-1">
+        <img src="assets/hero-logo.jpeg" alt="Raga Aur Taal logo" />
+      </div>
+    </section>
 
-    <main id="top">
-      <section class="hero section-pad">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Classical Music • Bhajans • Devotion</p>
-          <h1>Discover Indian music through raag, taal, and bhajan.</h1>
-          <p class="hero-text">A modern archive for recordings, devotional music, student learning, and reflections from Krish’s journey through Indian classical music.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#recordings">Listen to Recordings</a>
-            <a class="button secondary" href="#learn">Explore the Guides</a>
-          </div>
-        </div>
-        <div class="hero-art reveal delay-1" aria-hidden="true">
-          <div class="logo-card">
-            <img src="assets/logo.jpeg" alt="" />
-          </div>
-        </div>
-      </section>
+    <section class="section feature-band">
+      <div class="grid-3">
+        <article class="card reveal"><span class="num">01</span><h3>Recordings Archive</h3><p>Concert clips, bhajans, harmonium pieces, practice recordings, and special performances organized with musical context.</p></article>
+        <article class="card reveal delay-1"><span class="num">02</span><h3>Bhajan Library</h3><p>Lyrics, meanings, taal notes, devotional themes, and learning guidance for community singing and home practice.</p></article>
+        <article class="card reveal delay-2"><span class="num">03</span><h3>Raag & Taal Guides</h3><p>Simple, elegant explanations of raag, taal, sargam, shruti, laya, alap, bandish, and other core ideas.</p></article>
+      </div>
+    </section>
 
-      <section class="intro-grid section-pad tight">
-        <article class="feature-card reveal">
-          <span class="card-number">01</span>
-          <h2>Recordings Archive</h2>
-          <p>Concert clips, bhajans, harmonium pieces, practice recordings, and special performances organized with context.</p>
-        </article>
-        <article class="feature-card reveal delay-1">
-          <span class="card-number">02</span>
-          <h2>Music Learning</h2>
-          <p>Simple explanations of raag, taal, sargam, shruti, laya, alap, bandish, and other Indian music concepts.</p>
-        </article>
-        <article class="feature-card reveal delay-2">
-          <span class="card-number">03</span>
-          <h2>Devotional Music</h2>
-          <p>A bhajan library with lyrics, meanings, taal notes, and learning resources for students and families.</p>
-        </article>
-      </section>
-
-      <section id="recordings" class="section-pad split-section">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Featured Recording</p>
-          <h2>Now Playing</h2>
-          <p>Use this area to feature the latest YouTube video, recital, or bhajan. Each recording can include lyrics, meaning, raag, taal, credits, and practice notes.</p>
-        </div>
-        <div class="now-playing reveal delay-1">
-          <div class="play-disc">
-            <span></span>
-          </div>
-          <div>
-            <p class="tag">Bhajan • Keherva Taal</p>
-            <h3>Ganesha Invocation</h3>
-            <p>A warm opening piece for devotional singing, student practice, and community bhajan sessions.</p>
-            <a href="#" class="text-link">Add YouTube or audio link →</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="bhajans" class="section-pad dark-panel">
-        <div class="section-heading centered reveal">
-          <p class="eyebrow">Bhajan Library</p>
-          <h2>Lyrics, meaning, melody, and devotion.</h2>
-          <p>Build a searchable devotional library that helps families learn not only how to sing a bhajan, but what it means.</p>
-        </div>
-        <div class="library-grid">
-          <article class="library-card reveal">
-            <p class="tag">Ganesha</p>
-            <h3>Beginner Bhajans</h3>
-            <p>Simple call-and-response songs with clear taal counts and easy harmonium support.</p>
-          </article>
-          <article class="library-card reveal delay-1">
-            <p class="tag">Sai</p>
-            <h3>Community Singing</h3>
-            <p>Bhajans organized by theme, tempo, language, deity, and difficulty level.</p>
-          </article>
-          <article class="library-card reveal delay-2">
-            <p class="tag">Meaning</p>
-            <h3>Devotional Context</h3>
-            <p>Short explanations of bhakti, seva, sharanam, ananda, and other words children hear often.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="learn" class="section-pad">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Learn Indian Music</p>
-          <h2>An elegant guide for students and parents.</h2>
-        </div>
-        <div class="lesson-list">
-          <a class="lesson-item reveal" href="#">
-            <span>Raag</span>
-            <strong>What is a raag?</strong>
-            <em>A musical personality made from notes, phrases, mood, and movement.</em>
-          </a>
-          <a class="lesson-item reveal delay-1" href="#">
-            <span>Taal</span>
-            <strong>How rhythm cycles work</strong>
-            <em>Claps, waves, matras, theka, and how to feel the sam.</em>
-          </a>
-          <a class="lesson-item reveal delay-2" href="#">
-            <span>Sargam</span>
-            <strong>Sa Re Ga Ma as a practice language</strong>
-            <em>Using Indian solfege to understand melody and train the ear.</em>
-          </a>
-        </div>
-      </section>
-
-      <section id="journey" class="section-pad journey-section">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Krish’s ABGMVM Journey</p>
-          <h2>A student’s path through practice, exams, and performance.</h2>
-          <p>Document the practical side of learning Indian classical music: daily riyaz, exam preparation, theory notes, recordings, and reflections after each level.</p>
-        </div>
-        <div class="timeline reveal delay-1">
-          <div><span></span><p>Prarambhik</p></div>
-          <div><span></span><p>Praveshika</p></div>
-          <div><span></span><p>Madhyama</p></div>
-          <div><span></span><p>Visharad</p></div>
-        </div>
-      </section>
-
-      <section id="contact" class="section-pad closing">
-        <p class="eyebrow reveal">Follow Along</p>
-        <h2 class="reveal delay-1">A growing digital home for Indian music, devotion, and learning.</h2>
-        <p class="reveal delay-2">Add newsletter signup, YouTube channel links, upcoming recordings, and contact information here.</p>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>© <span id="year"></span> Raga Aur Taal</p>
-      <p>Indian Classical Music • Bhajans • Devotion</p>
-    </footer>
-  </div>
+    <section class="section split">
+      <div class="reveal"><p class="eyebrow">Featured</p><h2>A premium archive for music and learning.</h2><p class="lede">The site is designed to support the YouTube channel while giving each piece more context: raag, taal, lyrics, translation, meaning, credits, and notes for learners.</p></div>
+      <article class="card music-card reveal delay-1"><div class="disc" aria-hidden="true"></div><div><p class="tag">Now building</p><h3>Recordings, bhajans, and learning notes</h3><p>Add YouTube videos, audio recordings, lyrics, notation, and short explanations as the archive grows.</p><div class="kicker-links"><a href="recordings.html">Recordings</a><a href="bhajans.html">Bhajans</a><a href="raag-taal.html">Raag & Taal</a></div></div></article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Raga Aur Taal</p>
+    <p>RagaAurTaal.com • youtube.com/@RagaAurTaal</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
