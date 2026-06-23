@@ -1,5 +1,222 @@
 # Raga Aur Taal Website
 
-## Contact form
+Official website for **Raga Aur Taal** — a digital home for Indian classical music, bhajans, devotional recordings, learning resources, and music-related content.
 
-The contact page links to the Google Form: https://forms.gle/VvjnWsrUGJwZeJvT8
+Website: [RagaAurTaal.com](https://RagaAurTaal.com)
+YouTube: [youtube.com/@RagaAurTaal](https://www.youtube.com/@RagaAurTaal)
+Email: [Hello@RagaAurTaal.com](mailto:Hello@RagaAurTaal.com)
+Phone / WhatsApp: [+1 202 550 7234](tel:+12025507234)
+
+---
+
+## About
+
+Raga Aur Taal is focused on Indian music, including:
+
+* Indian classical music
+* Devotional music and bhajans
+* Recordings and performances
+* Raag and taal learning resources
+* ABGMVM exam-related information and study support
+
+The website currently serves as a simple, elegant online presence for the Raga Aur Taal brand and YouTube channel.
+
+---
+
+## Current Website Structure
+
+```text
+/
+├── index.html
+├── contact.html
+├── recordings.html
+├── bhajans.html
+├── learn.html
+├── raag-taal.html
+├── abgmvm.html
+├── styles.css
+├── script.js
+├── favicon.ico
+└── assets/
+```
+
+### Active Navigation
+
+The current public navigation includes:
+
+* Home
+* Recordings
+* Contact
+
+The following pages exist in the project but are currently hidden from the top navigation:
+
+* Bhajans
+* Learn
+* Raag & Taal
+* ABGMVM
+
+These pages are kept for future expansion.
+
+---
+
+## Pages
+
+### `index.html`
+
+Homepage for Raga Aur Taal.
+
+Includes:
+
+* Hero image
+* Brand introduction
+* Link to YouTube recordings
+* Contact call-to-action
+
+### `recordings.html`
+
+Currently redirects users to the Raga Aur Taal YouTube channel:
+
+https://www.youtube.com/@RagaAurTaal
+
+### `contact.html`
+
+Contact page with:
+
+* Website
+* Email
+* YouTube
+* Phone / WhatsApp
+* Embedded Google contact form
+
+### Hidden Future Pages
+
+These pages are included for future development:
+
+* `bhajans.html`
+* `learn.html`
+* `raag-taal.html`
+* `abgmvm.html`
+
+They may later be used for:
+
+* Bhajan lyrics and meanings
+* Raag and taal guides
+* Music learning content
+* ABGMVM exam resources
+
+---
+
+## Design Direction
+
+The site is designed around the Raga Aur Taal logo and brand identity.
+
+Visual theme:
+
+* Dark navy / black background
+* Gold accents
+* Ivory text
+* Elegant serif typography
+* Premium cultural music archive feel
+* Minimal, refined layout
+
+The goal is to create a website that feels:
+
+> Classical, devotional, premium, warm, and timeless.
+
+---
+
+## Updating the Website
+
+This is a static website built with plain HTML, CSS, and JavaScript.
+
+No backend, database, or build process is required.
+
+To update the website:
+
+1. Edit the HTML, CSS, or JavaScript files.
+2. Commit the changes to GitHub.
+3. GitHub Pages will automatically update after deployment.
+
+---
+
+## GitHub Pages Preview
+
+The site can be previewed using GitHub Pages before connecting the official domain.
+
+To enable GitHub Pages:
+
+1. Go to the GitHub repository.
+2. Open **Settings**.
+3. Click **Pages**.
+4. Under **Build and deployment**, choose:
+
+   * **Source:** Deploy from a branch
+   * **Branch:** `main`
+   * **Folder:** `/root`
+5. Click **Save**.
+
+GitHub will generate a preview URL similar to:
+
+```text
+https://yourusername.github.io/raga-aur-taal/
+```
+
+The custom domain does not need to be connected until the site is ready.
+
+---
+
+## Custom Domain
+
+When the site is ready to go live, the intended custom domain is:
+
+```text
+RagaAurTaal.com
+```
+
+The custom domain should be configured through GitHub Pages and the domain provider’s DNS settings.
+
+---
+
+## Contact Form
+
+The contact page includes an embedded Google Form.
+
+Current embedded form:
+
+```html
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSee47fcxXKbQPZ1i5RwvjCYXryB2O5Xkr7aom4K1mTsIGWLxQ/viewform?embedded=true" width="640" height="1174" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+```
+
+---
+
+## Brand Links
+
+* Website: [RagaAurTaal.com](https://RagaAurTaal.com)
+* YouTube: [youtube.com/@RagaAurTaal](https://www.youtube.com/@RagaAurTaal)
+* Email: [Hello@RagaAurTaal.com](mailto:Hello@RagaAurTaal.com)
+* Phone / WhatsApp: [+1 202 550 7234](tel:+12025507234)
+
+---
+
+## Future Ideas
+
+Potential future additions:
+
+* Bhajan lyrics library
+* Raag guide
+* Taal guide
+* ABGMVM exam preparation section
+* Practice resources
+* Audio and video archive
+* Performance/event pages
+* Blog or journal
+* Downloadable lyric sheets
+* Newsletter signup
+
+---
+
+## License
+
+All Raga Aur Taal branding, logos, images, recordings, and original content are owned by Raga Aur Taal unless otherwise noted.
+
+Do not reuse brand assets, logos, or recordings without permission.
