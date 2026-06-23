@@ -17,3 +17,15 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+
+// Use the most appropriate SMS link format for the visitor's device.
+const smsLink = document.querySelector('#sms-link');
+if (smsLink) {
+  const ua = navigator.userAgent || navigator.vendor || window.opera || '';
+  if (/android/i.test(ua)) {
+    smsLink.setAttribute('href', 'smsto:+12025507234');
+  } else {
+    smsLink.setAttribute('href', 'sms:+12025507234');
+  }
+}
