@@ -232,3 +232,15 @@ assets/social-preview.png
 ```
 
 After uploading changes, some apps may continue showing an old preview for a while because link previews are cached.
+
+
+## Legal Pages
+
+Version 10 adds legal pages and footer links:
+
+```text
+privacy.html
+terms.html
+```
+
+These pages are linked from the footer across the website.
