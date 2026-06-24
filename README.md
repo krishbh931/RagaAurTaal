@@ -220,3 +220,15 @@ Potential future additions:
 All Raga Aur Taal branding, logos, images, recordings, and original content are owned by Raga Aur Taal unless otherwise noted.
 
 Do not reuse brand assets, logos, or recordings without permission.
+
+## Link Preview Image
+
+The site includes Open Graph and Twitter Card metadata so links shared in messages/social apps show a clean preview image instead of cropping the logo oddly.
+
+Preview image:
+
+```text
+assets/social-preview.png
+```
+
+After uploading changes, some apps may continue showing an old preview for a while because link previews are cached.
